@@ -1,0 +1,40 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+  title "Simple Test World"
+}
+Viewpoint {
+  orientation 0.0016077999284081401 0.5144943022980029 -0.8574922902757094 0.0072886867282750765
+  position 0 1 5
+}
+Shape {
+  appearance Appearance {
+    material Material {
+      diffuseColor 0.5 0.5 0.5
+    }
+  }
+  geometry Box {
+    size 10 0.1 10
+  }
+}
+Pose {
+  translation 0 0.1 0
+  children [
+    E-puck {
+      hidden position_0_0 390.716255595884
+      hidden position_0_1 429.31479124274307
+      hidden linearVelocity_0 0.007101205317005763 1.9363250702300454e-09 -1444.53878433577
+      hidden angularVelocity_0 -5.103235316093762e-06 51.283522462672906 3.853260116879501e-06
+      hidden rotation_1 0 1 0 1.1587665507496174
+      hidden linearVelocity_1 -0.10678805344500647 -2.90431293155621e-08 -1444.2781153759993
+      hidden angularVelocity_1 -5.395297288820918e-06 53.953030805603476 4.031937402883788e-06
+      hidden rotation_2 0 1 0 2.058190354531189
+      hidden linearVelocity_2 -0.10678805102424599 -2.9043131360004606e-08 -1444.2781153467217
+      hidden angularVelocity_2 -5.41510956002099e-06 54.2193644678686 4.053044775309676e-06
+      translation 0.008936784750501001 1.7774638011447408e-09 -118448.83438327331
+      rotation -1.5487984456548154e-07 0.9999999999999791 -1.3284972646696666e-07 -0.621612676303581
+    }
+  ]
+}

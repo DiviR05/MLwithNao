@@ -1,0 +1,94 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+  title "Mushroom Forest Simulation_nobill"
+}
+Viewpoint {
+  orientation 0.4472166080812353 0.894425684671226 7.531491244618207e-06 1.500017078129325
+  position -5.736856253044623 -3.3113381030553106 34.948372082617674
+}
+Pose {
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.6 0.8 0.4
+        }
+      }
+      geometry Box {
+        size 100 0.1 100
+      }
+    }
+  ]
+}
+Pose {
+  translation -5 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.8 0.4 0.2
+        }
+      }
+      geometry Cylinder {
+        height 5
+        radius 0.2
+      }
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0.8 0
+        }
+      }
+      geometry Sphere {
+      }
+    }
+  ]
+}
+Pose {
+  translation 5 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.8 0.4 0.2
+        }
+      }
+      geometry Cylinder {
+        height 5
+        radius 0.2
+      }
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0.8 0
+        }
+      }
+      geometry Sphere {
+      }
+    }
+  ]
+}
+Pose {
+  translation 0 0.1 0
+  children [
+    E-puck {
+      hidden position_0_0 693.2745863292861
+      hidden position_0_1 762.2562068687164
+      hidden linearVelocity_0 0.0037559174125163524 -4.33897412410156e-10 -2648.8917405016714
+      hidden angularVelocity_0 2.690090162393466e-06 16.976999424143905 -6.065974585279171e-07
+      hidden rotation_1 0 0.9999999999999999 0 2.1242025395315682
+      hidden linearVelocity_1 -0.05628003260913492 6.514251557515439e-09 -2648.962803217691
+      hidden angularVelocity_1 3.1467949723754347e-06 19.64456766476115 -6.597904724914037e-07
+      hidden rotation_2 0 -1 0 4.29240060719316
+      hidden linearVelocity_2 -0.05628005257531901 6.514255009956234e-09 -2648.962803210307
+      hidden angularVelocity_2 3.1912691219879144e-06 19.912173279991062 -6.638201253185564e-07
+      translation -0.005454254496999171 1.3495224104875803e-09 -386579.00723717344
+      rotation -8.67442005326202e-08 -0.9999999999999957 2.798287524081798e-08 -2.7672684619020984
+    }
+  ]
+}
